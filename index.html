@@ -1193,7 +1193,28 @@
                         <h4 class="heading-left iq-tw-6 iq-pb-20 iq-mb-40">Get in Touch</h4>
                             <div id="formmessage">Success/Error Message Goes Here</div>
                            
-                            <form class="form-horizontal" id="contactform" method="post" action="https://script.google.com/macros/s/AKfycbxtKqSqFMPVq7hQbRrHKP8YBJTWB_FU3ACqjnMbqA/exec">
+ <form id="gform" method="POST" class="form-horizontal" data-email="from_email@example.com"
+          action="https://script.google.com/macros/s/AKfycbxYKdO23dwmuWno5M2t0jFlmos_5YonQnZv-5zP/exec">
+        <div class="contact-form">
+                                     <div class="section-field"> 
+                                	 <label for="name"></label>
+                                   <input type="text" id="name" name="name" placeholder="First Name">
+                                  </div>
+                                   <div class="section-field"> 
+                                  <input id="email" name="email" type="email" placeholder="Enter your email">
+                              </div>
+                               <div class="section-field"> 
+                                  <input id="phone" name="phone" type="text" placeholder="Enter your Phone Number">
+                              </div>
+                               <div class="section-field textarea">
+								<textarea id="message" name="message" placeholder="Write your message"></textarea>
+								</div>
+                                <button class="button iq-mt-30">Send</button>
+                                </div>
+      
+    </form>
+
+                           <!--  <form class="form-horizontal" id="contactform" method="POST" action="https://script.google.com/macros/s/AKfycbxtKqSqFMPVq7hQbRrHKP8YBJTWB_FU3ACqjnMbqA/exec">
                                 <div class="contact-form">
                                      <div class="section-field"> 
                                 	 <label for="name"></label>
@@ -1211,7 +1232,7 @@
                                         <input type="hidden" name="action" value="sendEmail" />
                                         <button id="submit" name="submit" type="submit" value="Send" class="button iq-mt-30">Send Message</button>
                                 </div>
-                            </form>
+                            </form> -->
 
                             <div id="ajaxloader" style="display:none"><img class="center-block mt-30 mb-30" src="images/ajax-loader.gif" alt="#"></div>
                     </div>
