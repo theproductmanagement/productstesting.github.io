@@ -55,7 +55,7 @@ NOTE: This is main stylesheet of template, This file contains the styling for th
                                General
 -----------------------------------------------------------------------*/
 
-body { font-family: 'Roboto', sans-serif; font-weight: normal; font-style: normal; font-size: 14px; line-height: 24px; color: #666666; overflow-x: hidden; }
+body { font-family: 'Roboto', sans-serif; font-weight: normal; font-style: normal; font-size: 16px; line-height: 24px; color: #666666; overflow-x: hidden; }
 a, .button {font-family: 'Roboto', sans-serif; transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; color: #333333; }
 a:focus { text-decoration: none !important; }
 a:focus, a:hover { color: #4cd8ea; text-decoration: none !important; }
